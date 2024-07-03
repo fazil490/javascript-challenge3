@@ -1,0 +1,69 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: black;
+  color: white;
+  width: 70%;
+  margin: 4rem auto;
+  font-family: sans-serif ;
+}
+
+.header {
+    padding: 2rem 0;
+}
+
+.name {
+    font-size: 56px;
+    letter-spacing: 13px;
+}
+
+.tagline {
+    padding: 1rem;
+    background-color: lightblue;
+    color: black;
+    font-size: 23px;
+}
+
+.description {
+    margin: 2rem 0;
+}
+
+.courses {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 6rem;
+    font-size: 20px;
+    text-align: center;
+}
+
+.course {
+    padding: 2rem;
+    transition: background-color 0.3s ease, transform 0.3s ease, color 0.3s ease;
+}
+
+.course:hover {
+    background-color: lightpink;
+    color: black;
+    cursor: default;
+    transform: scale(1.1);
+}
+
+footer p {
+    margin-top: 4rem;
+}
+
+.technologies {
+    font-weight: bolder;
+    margin-left: 1rem;
+    font-size: 45px;
+    transition: opacity 0.5s ease-in-out;
+}
+
+.role {
+    transition: opacity 0.5s ease-out;
+}
